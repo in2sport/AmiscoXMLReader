@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17BA57F113C6136500F8E369 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BA57F013C6136500F8E369 /* Cocoa.framework */; };
+		17BA57FB13C6136500F8E369 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17BA57F913C6136500F8E369 /* InfoPlist.strings */; };
+		17BA57FE13C6136500F8E369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA57FD13C6136500F8E369 /* main.m */; };
+		17BA580113C6136500F8E369 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 17BA57FF13C6136500F8E369 /* Credits.rtf */; };
+		17BA580413C6136500F8E369 /* XMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA580313C6136500F8E369 /* XMLDocument.m */; };
+		17BA580713C6136500F8E369 /* XMLDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BA580513C6136500F8E369 /* XMLDocument.xib */; };
+		17BA580A13C6136500F8E369 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 17BA580813C6136500F8E369 /* MainMenu.xib */; };
+		17BA581113C6136600F8E369 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17BA57F013C6136500F8E369 /* Cocoa.framework */; };
+		17BA581913C6136600F8E369 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17BA581713C6136600F8E369 /* InfoPlist.strings */; };
+		17BA581C13C6136600F8E369 /* AmiscoXMLReaderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 17BA581B13C6136600F8E369 /* AmiscoXMLReaderTests.h */; };
+		17BA581E13C6136600F8E369 /* AmiscoXMLReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17BA581D13C6136600F8E369 /* AmiscoXMLReaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17BA581213C6136600F8E369 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17BA57E313C6136500F8E369 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17BA57EB13C6136500F8E369;
+			remoteInfo = AmiscoXMLReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17BA57EC13C6136500F8E369 /* AmiscoXMLReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiscoXMLReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BA57F013C6136500F8E369 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		17BA57F313C6136500F8E369 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		17BA57F413C6136500F8E369 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17BA57F513C6136500F8E369 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		17BA57F813C6136500F8E369 /* AmiscoXMLReader-Info.plist */ = {isa = PBXFileReference; path = "AmiscoXMLReader-Info.plist"; sourceTree = "<group>"; };
+		17BA57FA13C6136500F8E369 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17BA57FC13C6136500F8E369 /* AmiscoXMLReader-Prefix.pch */ = {isa = PBXFileReference; path = "AmiscoXMLReader-Prefix.pch"; sourceTree = "<group>"; };
+		17BA57FD13C6136500F8E369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17BA580013C6136500F8E369 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		17BA580213C6136500F8E369 /* XMLDocument.h */ = {isa = PBXFileReference; path = XMLDocument.h; sourceTree = "<group>"; };
+		17BA580313C6136500F8E369 /* XMLDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLDocument.m; sourceTree = "<group>"; };
+		17BA580613C6136500F8E369 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/XMLDocument.xib; sourceTree = "<group>"; };
+		17BA580913C6136500F8E369 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		17BA581013C6136600F8E369 /* AmiscoXMLReaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmiscoXMLReaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BA581613C6136600F8E369 /* AmiscoXMLReaderTests-Info.plist */ = {isa = PBXFileReference; path = "AmiscoXMLReaderTests-Info.plist"; sourceTree = "<group>"; };
+		17BA581813C6136600F8E369 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17BA581A13C6136600F8E369 /* AmiscoXMLReaderTests-Prefix.pch */ = {isa = PBXFileReference; path = "AmiscoXMLReaderTests-Prefix.pch"; sourceTree = "<group>"; };
+		17BA581B13C6136600F8E369 /* AmiscoXMLReaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AmiscoXMLReaderTests.h; sourceTree = "<group>"; };
+		17BA581D13C6136600F8E369 /* AmiscoXMLReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmiscoXMLReaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17BA57E913C6136500F8E369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA57F113C6136500F8E369 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BA580C13C6136600F8E369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA581113C6136600F8E369 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17BA57E113C6136500F8E369 = {
+			isa = PBXGroup;
+			children = (
+				17BA57F613C6136500F8E369 /* AmiscoXMLReader */,
+				17BA581413C6136600F8E369 /* AmiscoXMLReaderTests */,
+				17BA57EF13C6136500F8E369 /* Frameworks */,
+				17BA57ED13C6136500F8E369 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17BA57ED13C6136500F8E369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17BA57EC13C6136500F8E369 /* AmiscoXMLReader.app */,
+				17BA581013C6136600F8E369 /* AmiscoXMLReaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17BA57EF13C6136500F8E369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BA57F013C6136500F8E369 /* Cocoa.framework */,
+				17BA57F213C6136500F8E369 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17BA57F213C6136500F8E369 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17BA57F313C6136500F8E369 /* AppKit.framework */,
+				17BA57F413C6136500F8E369 /* CoreData.framework */,
+				17BA57F513C6136500F8E369 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		17BA57F613C6136500F8E369 /* AmiscoXMLReader */ = {
+			isa = PBXGroup;
+			children = (
+				17BA580213C6136500F8E369 /* XMLDocument.h */,
+				17BA580313C6136500F8E369 /* XMLDocument.m */,
+				17BA580513C6136500F8E369 /* XMLDocument.xib */,
+				17BA580813C6136500F8E369 /* MainMenu.xib */,
+				17BA57F713C6136500F8E369 /* Supporting Files */,
+			);
+			path = AmiscoXMLReader;
+			sourceTree = "<group>";
+		};
+		17BA57F713C6136500F8E369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BA57F813C6136500F8E369 /* AmiscoXMLReader-Info.plist */,
+				17BA57F913C6136500F8E369 /* InfoPlist.strings */,
+				17BA57FC13C6136500F8E369 /* AmiscoXMLReader-Prefix.pch */,
+				17BA57FD13C6136500F8E369 /* main.m */,
+				17BA57FF13C6136500F8E369 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17BA581413C6136600F8E369 /* AmiscoXMLReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				17BA581B13C6136600F8E369 /* AmiscoXMLReaderTests.h */,
+				17BA581D13C6136600F8E369 /* AmiscoXMLReaderTests.m */,
+				17BA581513C6136600F8E369 /* Supporting Files */,
+			);
+			path = AmiscoXMLReaderTests;
+			sourceTree = "<group>";
+		};
+		17BA581513C6136600F8E369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17BA581613C6136600F8E369 /* AmiscoXMLReaderTests-Info.plist */,
+				17BA581713C6136600F8E369 /* InfoPlist.strings */,
+				17BA581A13C6136600F8E369 /* AmiscoXMLReaderTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17BA57EB13C6136500F8E369 /* AmiscoXMLReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BA582113C6136600F8E369 /* Build configuration list for PBXNativeTarget "AmiscoXMLReader" */;
+			buildPhases = (
+				17BA57E813C6136500F8E369 /* Sources */,
+				17BA57E913C6136500F8E369 /* Frameworks */,
+				17BA57EA13C6136500F8E369 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmiscoXMLReader;
+			productName = AmiscoXMLReader;
+			productReference = 17BA57EC13C6136500F8E369 /* AmiscoXMLReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17BA580F13C6136600F8E369 /* AmiscoXMLReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17BA582413C6136600F8E369 /* Build configuration list for PBXNativeTarget "AmiscoXMLReaderTests" */;
+			buildPhases = (
+				17BA580B13C6136600F8E369 /* Sources */,
+				17BA580C13C6136600F8E369 /* Frameworks */,
+				17BA580D13C6136600F8E369 /* Resources */,
+				17BA580E13C6136600F8E369 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17BA581313C6136600F8E369 /* PBXTargetDependency */,
+			);
+			name = AmiscoXMLReaderTests;
+			productName = AmiscoXMLReaderTests;
+			productReference = 17BA581013C6136600F8E369 /* AmiscoXMLReaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17BA57E313C6136500F8E369 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 17BA57E613C6136500F8E369 /* Build configuration list for PBXProject "AmiscoXMLReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17BA57E113C6136500F8E369;
+			productRefGroup = 17BA57ED13C6136500F8E369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17BA57EB13C6136500F8E369 /* AmiscoXMLReader */,
+				17BA580F13C6136600F8E369 /* AmiscoXMLReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17BA57EA13C6136500F8E369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA57FB13C6136500F8E369 /* InfoPlist.strings in Resources */,
+				17BA580113C6136500F8E369 /* Credits.rtf in Resources */,
+				17BA580713C6136500F8E369 /* XMLDocument.xib in Resources */,
+				17BA580A13C6136500F8E369 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BA580D13C6136600F8E369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA581913C6136600F8E369 /* InfoPlist.strings in Resources */,
+				17BA581C13C6136600F8E369 /* AmiscoXMLReaderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17BA580E13C6136600F8E369 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17BA57E813C6136500F8E369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA57FE13C6136500F8E369 /* main.m in Sources */,
+				17BA580413C6136500F8E369 /* XMLDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17BA580B13C6136600F8E369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17BA581E13C6136600F8E369 /* AmiscoXMLReaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17BA581313C6136600F8E369 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17BA57EB13C6136500F8E369 /* AmiscoXMLReader */;
+			targetProxy = 17BA581213C6136600F8E369 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17BA57F913C6136500F8E369 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BA57FA13C6136500F8E369 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17BA57FF13C6136500F8E369 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BA580013C6136500F8E369 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		17BA580513C6136500F8E369 /* XMLDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BA580613C6136500F8E369 /* en */,
+			);
+			name = XMLDocument.xib;
+			sourceTree = "<group>";
+		};
+		17BA580813C6136500F8E369 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BA580913C6136500F8E369 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		17BA581713C6136600F8E369 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17BA581813C6136600F8E369 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17BA581F13C6136600F8E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17BA582013C6136600F8E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17BA582213C6136600F8E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmiscoXMLReader/AmiscoXMLReader-Prefix.pch";
+				INFOPLIST_FILE = "AmiscoXMLReader/AmiscoXMLReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17BA582313C6136600F8E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmiscoXMLReader/AmiscoXMLReader-Prefix.pch";
+				INFOPLIST_FILE = "AmiscoXMLReader/AmiscoXMLReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17BA582513C6136600F8E369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmiscoXMLReader.app/Contents/MacOS/AmiscoXMLReader";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmiscoXMLReaderTests/AmiscoXMLReaderTests-Prefix.pch";
+				INFOPLIST_FILE = "AmiscoXMLReaderTests/AmiscoXMLReaderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		17BA582613C6136600F8E369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AmiscoXMLReader.app/Contents/MacOS/AmiscoXMLReader";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AmiscoXMLReaderTests/AmiscoXMLReaderTests-Prefix.pch";
+				INFOPLIST_FILE = "AmiscoXMLReaderTests/AmiscoXMLReaderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17BA57E613C6136500F8E369 /* Build configuration list for PBXProject "AmiscoXMLReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BA581F13C6136600F8E369 /* Debug */,
+				17BA582013C6136600F8E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17BA582113C6136600F8E369 /* Build configuration list for PBXNativeTarget "AmiscoXMLReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BA582213C6136600F8E369 /* Debug */,
+				17BA582313C6136600F8E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		17BA582413C6136600F8E369 /* Build configuration list for PBXNativeTarget "AmiscoXMLReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17BA582513C6136600F8E369 /* Debug */,
+				17BA582613C6136600F8E369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17BA57E313C6136500F8E369 /* Project object */;
+}
